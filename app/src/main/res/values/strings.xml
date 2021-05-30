@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CGPA CALCULATOR</string>
+    <string name="hello">Hello,</string>
+    <string name="email_address">Email address</string>
+    <string name="login">Enter your information below or login with your account</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password again</string>
+    <string name="sign_up">Sign up</string>
+    <string name="welcome">Welcome</string>
+    <string name="make_things_simple">make things simple</string>
+    <string name="calculate_cgpa">Calculate CGPA</string>
+    <string name="profile">profile</string>
+    <string name="layout">layout</string>
+    <string name="design">design</string>
+    <string name="designed_by_joan">Designed By Joan</string>
+    <string name="credit_unit">Credit Unit</string>
+    <string name="grade">Grade</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">RESET</string>
+    <string name="value">0.00</string>
+</resources>
