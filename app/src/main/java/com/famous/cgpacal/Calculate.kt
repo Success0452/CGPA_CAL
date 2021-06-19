@@ -192,7 +192,7 @@ class Calculate : AppCompatActivity() {
                 return@setOnClickListener
             }
             // Check whether the number inserted is not greater or lesser than a particular number
-            if (creditUnit6.toFloat() > 6 || creditUnit6.toFloat() < 1) {
+            if (creditUnit6.toFloat() > 6 || creditUnit6.toFloat() < 0) {
                 binding.creditUnit6.error = "Should not greater than 6 and less than 1"
                 binding.creditUnit6.requestFocus()
                 return@setOnClickListener
@@ -396,7 +396,7 @@ class Calculate : AppCompatActivity() {
             //Addition of all the calculation
             val addition = calculate + calculate2 + calculate3 + calculate4 + calculate5 + calculate6 + calculate7 + calculate8 + calculate9 + calculate10 + calculate11 + calculate12
            // Addition of all the credit unit
-            val creditAddition = creditUnit.toFloat() + creditUnit2.toFloat() + creditUnit3.toFloat() + creditUnit4.toFloat() + creditUnit5.toFloat() + creditUnit6.toFloat() + creditUnit7.toFloat() + creditUnit8.toFloat() + creditUnit9.toFloat() + creditUnit.toFloat() + creditUnit11.toFloat() + creditUnit12.toFloat()
+            val creditAddition = creditUnit.toFloat() + creditUnit2.toFloat() + creditUnit3.toFloat() + creditUnit4.toFloat() + creditUnit5.toFloat() + creditUnit6.toFloat() + creditUnit7.toFloat() + creditUnit8.toFloat() + creditUnit9.toFloat() + creditUnit10.toFloat() + creditUnit11.toFloat() + creditUnit12.toFloat()
             //Division of calculation and creditUnit
             val total = addition / creditAddition
             //String format
@@ -411,7 +411,7 @@ class Calculate : AppCompatActivity() {
     }
 
     private fun reset() {
-        binding.result.text = R.string.value.toString()
+        binding.result.text = "0.00"
         binding.creditUnit.setText("")
         binding.grade.setText("")
         binding.creditUnit2.setText("")
